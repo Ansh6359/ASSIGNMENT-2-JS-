@@ -48,7 +48,7 @@ function updateImageOptions() {
 
     imageSelect.addEventListener("change", () => {
         const selectedImageSrc = imageSelect.value;
-        images.src = `./img/${selectedImageSrc}`;
+        images.src = `./${selectedImageSrc}`;
     });
 }
 
